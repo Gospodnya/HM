@@ -1,0 +1,31 @@
+2)
+n=int(input())
+y=int(input())
+if -5<n<1 or -5<y<1 or 2<n<=7 or 2<y<=7:
+    print('Да')
+else:
+    print("Нет")
+3)
+s=float(input())
+t=float
+(input())
+v=s/t
+if v<30:
+    print('Медленно')
+elif 30<=v<60:
+    print('Средне')
+else:
+    print('Быстро')
+4)
+n=int(input())
+a=n//100
+b=(n//10)%10
+c=n%10
+x=max(a,b,c)
+y=min(a,b,c)
+z=((a+b+c)-x-y)
+if x-y==z:
+    print('Число', n, '- интересное')
+else:
+    print('Число', n, '- не интересное')
+
